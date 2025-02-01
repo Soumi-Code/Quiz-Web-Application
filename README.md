@@ -76,3 +76,5 @@ Simply open index.html in any modern browser.
 ## Video Walkthrough
 
 [Watch the video walkthrough](https://drive.google.com/file/d/1kr216aUQbjWhwmGfefaQ2B1v90CRPx0G/view?usp=drive_link)
+
+_Live Demo_: [My Deployed Link Here](https://popquizapp.netlify.app/)
