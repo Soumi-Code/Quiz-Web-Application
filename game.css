@@ -1,0 +1,115 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 2rem;
+    border: 0.1rem solid rgba(86, 165, 235, 0.25);
+    background-color: white;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #56a5eb;
+    color: white;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: #28a745;
+}
+
+.incorrect {
+    background-color: #dc3545;
+}
+
+/* HUD */
+#hud {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+#hud-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+#timer {
+    font-size: 3rem;
+    color: #56a5eb;
+}
+
+/* Ensure text adjusts dynamically */
+.hud-prefix {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hud-main-text {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Progress Bar */
+#progressBar {
+    width: 100%;
+    max-width: 20rem;
+    height: 1.5rem;
+    border: 0.2rem solid #56a5eb;
+    margin-top: 0.8rem;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background-color: #56a5eb;
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+}
+
+/* LOADER */
+#loader {
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top: 1.6rem solid #56a5eb;
+    width: 12rem;
+    height: 12rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Adjust question font size dynamically */
+#question {
+    text-align: center;
+    font-size: clamp(2rem, 5vw, 3rem);
+    max-width: 90%;
+    word-wrap: break-word;
+}
