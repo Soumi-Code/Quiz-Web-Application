@@ -41,6 +41,18 @@ UI and CSS styling.
 Detailed Answer Review : Displaying correct answers and explanations at the end.
 Enhanced UI Alignment : Adjusting HUD (Score, Timer, Progress) positioning.
 
+# Setup Instructions
+
+### Clone the Repository
+
+sh
+git clone https://github.com/Soumi-Code/Quiz-Web-Application.git
+cd quiz-web-app
+
+### Open the Project in a Browser
+
+Simply open index.html in any modern browser.
+
 # Screenshots & Video
 
 ## Screenshots
