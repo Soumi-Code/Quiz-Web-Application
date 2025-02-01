@@ -47,7 +47,7 @@ Enhanced UI Alignment : Adjusting HUD (Score, Timer, Progress) positioning.
 
 sh
 git clone https://github.com/Soumi-Code/Quiz-Web-Application.git
-cd quiz-web-app
+cd Quiz-Web-Application
 
 ### Open the Project in a Browser
 
